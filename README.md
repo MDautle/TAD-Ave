@@ -1,10 +1,10 @@
-# intraTAD: Quantifying intra-TAD interaction strengths from Hi-C Data
+# intraTAD: Quantifying intra-TAD interactions from Hi-C Data
 
 If using this code please cite : **PAPER WILL GO HERE**
 
 
 ### Overview
-This program (I call it TADbit, but call it what you like) is a Python command-line tool that compares intra-TAD contact strengths between two conditions (e.g. a control and treatment). Using the control matrix, TADbit identifies TAD boundaries via insulation score analysis, then quanitifies the average interactions within each TAD for both conditions. This program takes Hi-C matrices (in .mcool format) and outputs the following: 
+This program (I call it TADbit, but call it what you like) is a Python command-line tool that compares intra-TAD contacts between two conditions (e.g. a control and treatment). Using the control matrix, TADbit identifies TAD boundaries via insulation score analysis, then quanitifies the average interactions within each TAD for both conditions. This program takes Hi-C matrices (in .mcool format) and outputs the following: 
 
 #### The Output
 + TAD boundaries
