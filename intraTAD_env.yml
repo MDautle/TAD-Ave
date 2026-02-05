@@ -1,0 +1,11 @@
+name: intraTADs
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - pandas
+  - python=3.11
+  - cooler
+  - cooltools
+prefix: /home/mdautle/anaconda3/envs/intraTADs
