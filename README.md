@@ -1,10 +1,10 @@
 # intraTAD: Quantifying intra-TAD interactions from Hi-C Data
 
-If using this code please cite : **PAPER WILL GO HERE**
+If using this code please cite : Smith, R.G., Fu, Y., Schiela, K.L. et al. Histone Acetylation Differentially Modulates CTCF-CTCF Loops and Intra-TAD Interactions. Nat Commun 17, 6676 (2026). [https://doi.org/10.1038/s41467-026-75818-8](https://www.nature.com/articles/s41467-026-75818-8)
 
 
 ### Overview
-This program (I call it TADbit, but call it what you like) is a Python command-line tool that compares intra-TAD contacts between two conditions (e.g. a control and treatment). Using the control matrix, TADbit identifies TAD boundaries via insulation score analysis, then quanitifies the average interactions within each TAD for both conditions. This program takes Hi-C matrices (in .mcool format) and outputs the following: 
+This program is a Python command-line tool that compares intra-TAD contacts between two conditions (e.g. a control and treatment). Using the control matrix, TAD-Ave identifies TAD boundaries via insulation score analysis, then quanitifies the average interactions within each TAD for both conditions. This program takes Hi-C matrices (in .mcool format) and outputs the following: 
 
 #### The Output
 + TAD boundaries
